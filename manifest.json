@@ -1,0 +1,20 @@
+{
+
+"name": "For Kathy",
+"version": "1.0",
+"manifest_version": 2,
+
+"description": "Because Kathy is awesome!",
+"icons": {
+	"128": "Icon.png"
+},
+
+"browser_action": {
+	"default_title": "Kathys Extension",
+	"default_popup": "popup.html"
+},
+
+"permissions": [
+	"http://*/*", "https://*/*"
+	]
+}
